@@ -29,6 +29,7 @@ window.onload = function(){
 	}
 	
 	right.onclick = function(){
+		console.log(111);
 		if(isMove){return};
 		index++;
 		round++;
